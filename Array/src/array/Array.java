@@ -13,7 +13,7 @@ import java.util.Arrays;
  * @author Alejandra
  */
 public class Array {
-
+    
     /**
      * @param args the command line arguments
      */
@@ -24,7 +24,7 @@ public class Array {
     
     //LLENAR VECTORES ALEATORIAMENTE
         for (int i = 0; i < 50; i++) {
-            vectorA[i]=(int) (Math.random() * 10 + 1);                 
+            vectorA[i]=(int)(Math.random() * 10+1);                 
         }
     //MOSTRAR VECTOR POR PANTALLA   
         System.out.println("El vector llenado aleatoriamente se ve asi");

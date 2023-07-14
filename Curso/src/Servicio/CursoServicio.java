@@ -46,6 +46,8 @@ nombre de cada alumno.**/
         }
         
         curso.setAlumnos(vectorAlumnos);
+        System.out.println("Los alumnos son:");
+        System.out.println(Arrays.toString(curso.getAlumnos()));
     }
     
     /**Método calcularGananciaSemanal(): este método se encarga de calcular la ganancia
